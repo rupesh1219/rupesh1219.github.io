@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Engineering</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-11-12T21:43:00-08:00</updated><entry><title>Art of Unix Programming</title><link href="/Unix%20Unix.html" rel="alternate"></link><published>2018-11-12T21:43:00-08:00</published><updated>2018-11-12T21:43:00-08:00</updated><author><name>Rupesh</name></author><id>tag:None,2018-11-12:/Unix Unix.html</id><summary type="html">&lt;p&gt;Rules of programming from art of unix programming&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Rule of Modularity: Write simple parts connected by clean interfaces&lt;/h2&gt;
+&lt;p&gt;Debugging dominates developing time and getting a wroking system out the door
+is usually less a result of brilliant design than it is of managing not to
+trip over your own feet too many times.&lt;/p&gt;
+&lt;h2&gt;Rule of Clarity: Clarity is better than cleverness&lt;/h2&gt;
+&lt;p&gt;Because maintenance is so important and so expensive, write programs as if the most important communication they do is not to the computer that executes them but to the human beings who will read and maintain the source code in the 
+future&lt;/p&gt;</content></entry><entry><title>VIM Learnings</title><link href="/Vim%20Text%20Editor.html" rel="alternate"></link><published>2018-11-12T21:23:00-08:00</published><updated>2018-11-12T21:23:00-08:00</updated><author><name>Rupesh</name></author><id>tag:None,2018-11-12:/Vim Text Editor.html</id><summary type="html">&lt;p&gt;Vim learnings&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Things About Vim I Wish I knew Earlier&lt;/h2&gt;
+&lt;h3&gt;Relative Line Numbers&lt;/h3&gt;
+&lt;p&gt;Absolute numbers are common, all editors use them by default. But have you ever
+used relative line numbers on a text editor?&lt;/p&gt;
+&lt;p&gt;To start using relative line number on vim:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;set number
+set relative number
+&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>TMUX Overview</title><link href="/Tmux%20Primer.html" rel="alternate"></link><published>2018-11-12T21:01:00-08:00</published><updated>2018-11-12T21:01:00-08:00</updated><author><name>Rupesh</name></author><id>tag:None,2018-11-12:/Tmux Primer.html</id><summary type="html">&lt;p&gt;What is tmux? Why we use tmux and its advantages?&lt;/p&gt;</summary><content type="html">&lt;h2&gt;WHY TMUX&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; is useful in different ways. To me, its most useful as a way to maintain
+various windows and panels in a single terminal window. And also to maitain
+peristent working states on remote servers, allowing you to detach and re-attach
+at will.&lt;/p&gt;
+&lt;h2&gt;WHAT ABOUT SCREEN?&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; is a lot like screen, only better. Few advantages of tmux over screen:
+    - Tmux supports both emacs and vim shortcuts
+    - Tmux support auto-renaming windows
+    - Tmux is highly scriptable
+    - Window splitting is more advanced in tmux&lt;/p&gt;</content></entry></feed>
